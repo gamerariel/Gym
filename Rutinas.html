@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Rutinas de Gimnasio</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #000;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #c00;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 4px solid gold;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 40px;
+      background-color: #111;
+    }
+
+    th, td {
+      border: 1px solid gold;
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #c00;
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background-color: #222;
+    }
+
+    form {
+      background-color: #111;
+      padding: 20px;
+      border: 2px solid gold;
+      border-radius: 10px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: none;
+      border-bottom: 2px solid #c00;
+      background-color: #000;
+      color: #fff;
+    }
+
+    input[type="submit"] {
+      background-color: gold;
+      color: black;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #c00;
+      color: white;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #111;
+      border-top: 2px solid gold;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Rutinas de Gimnasio</h1>
+  <p>15 rutinas para mejorar tu fuerza, resistencia y forma física</p>
+</header>
+
+<main>
+  <h2>Tabla de Rutinas</h2>
+  <table>
+    <tr>
+      <th>#</th>
+      <th>Nombre</th>
+      <th>Día</th>
+      <th>Objetivo</th>
+    </tr>
+    <tr><td>1</td><td>Pecho y Tríceps</td><td>Lunes</td><td>Hipertrofia</td></tr>
+    <tr><td>2</td><td>Espalda y Bíceps</td><td>Martes</td><td>Fuerza</td></tr>
+    <tr><td>3</td><td>Piernas</td><td>Miércoles</td><td>Volumen</td></tr>
+    <tr><td>4</td><td>Cardio HIIT</td><td>Jueves</td><td>Quema grasa</td></tr>
+    <tr><td>5</td><td>Full Body</td><td>Viernes</td><td>Resistencia</td></tr>
+    <tr><td>6</td><td>Glúteos y Abdomen</td><td>Sábado</td><td>Tono muscular</td></tr>
+    <tr><td>7</td><td>Estiramiento</td><td>Domingo</td><td>Recuperación</td></tr>
+    <tr><td>8</td><td>Hombros</td><td>Lunes</td><td>Definición</td></tr>
+    <tr><td>9</td><td>Cardio LISS</td><td>Martes</td><td>Resistencia aeróbica</td></tr>
+    <tr><td>10</td><td>Calistenia</td><td>Miércoles</td><td>Control corporal</td></tr>
+    <tr><td>11</td><td>Powerlifting</td><td>Jueves</td><td>Fuerza máxima</td></tr>
+    <tr><td>12</td><td>Funcional</td><td>Viernes</td><td>Agilidad</td></tr>
+    <tr><td>13</td><td>Core</td><td>Sábado</td><td>Estabilidad</td></tr>
+    <tr><td>14</td><td>Yoga</td><td>Domingo</td><td>Flexibilidad</td></tr>
+    <tr><td>15</td><td>Boxeo</td><td>Lunes</td><td>Cardio y fuerza</td></tr>
+  </table>
+
+  <h2>Contáctanos</h2>
+  <form action="https://formsubmit.co/TU_CORREO@gmail.com" method="POST">
+    <input type="text" name="nombre" placeholder="Tu nombre" required>
+    <input type="email" name="email" placeholder="Tu correo" required>
+    <textarea name="mensaje" rows="4" placeholder="Escribe tu mensaje..." required></textarea>
+    <input type="submit" value="Enviar">
+  </form>
+</main>
+
+<footer>
+  <p>&copy; 2025 Rutinas Fit. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
